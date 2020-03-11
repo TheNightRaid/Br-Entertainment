@@ -26,7 +26,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/shop-homepage.css" rel="stylesheet">
+  <link href="css/shop-homepage-registro.css" rel="stylesheet">
 
 </head>
 
@@ -67,10 +67,10 @@
 
 <center>
  <body class="bg-light">
-    <div class="container">
+    <div>
   <div class="py-5 text-center">
     <img class="d-block mx-auto mb-4" src="registro.png" alt="" width="15%" height="15%">
-    <h2>Cadastro</h2>
+    <h2><b>Cadastro</h2>
     <p class="lead">Se cadastrando voce aceita vender sua alma ao mundo dos animes... Brincadeira.(Ou sera nao..)</p>
   </div>
   </div>
@@ -82,14 +82,18 @@
       <form class="needs-validation" novalidate>
         <div class="row">
           <div class="col-md-6 mb-3">
+            <div align="left">
             <label for="firstName">Nome (Primeiro)</label>
+          </div>
             <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
             <div class="invalid-feedback">
               Valid first name is required.
             </div>
           </div>
           <div class="col-md-6 mb-3">
+            <div align="left">
             <label for="lastName">Sobrenome (Ultimo)</label>
+          </div>
             <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
             <div class="invalid-feedback">
               Valid last name is required.
@@ -98,7 +102,9 @@
         </div>
 
         <div class="mb-3">
+          <div align="left">
           <label for="username">Nome de usuario</label>
+        </div>
           <div class="input-group">
             <div class="input-group-prepend">
               <span class="input-group-text">@</span>
@@ -110,7 +116,7 @@
           </div>
         </div>
 
-        <div class="mb-3">
+        <div align="left" class="mb-3">
           <label for="email">E-mail <span class="text-muted"></span></label>
           <input type="email" class="form-control" id="email" placeholder="seuemail@gmail.com">
           <div class="invalid-feedback">
@@ -118,7 +124,7 @@
           </div>
         </div>
 
-        <div class="mb-3">
+        <div align="left" class="mb-3">
           <label for="address">Senha</label>
           <input type="password" class="form-control" id="address" placeholder="*****" required>
           <div class="invalid-feedback">
@@ -126,12 +132,12 @@
           </div>
         </div>
 
-        <div class="mb-3">
+        <div align="left" class="mb-3">
           <label for="address2">Repita a senha <span class="text-muted"></span></label>
           <input type="password" class="form-control" id="address2" placeholder="*****">
         </div>
 
-        <div class="row">
+        <div align="left" class="row">
           <div class="col-md-5 mb-3">
             <label for="country">Regiao</label>
             <select class="custom-select d-block w-100" id="country" required>
@@ -218,12 +224,15 @@
 
 
 
-
+</form>
+</div>
+</center>
+<br>
    <!-- Footer -->
   <footer class="py-5 bg-dark">
-    <div class="container">
+
       <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
-    </div>
+
     <!-- /.container -->
   </footer>
 
