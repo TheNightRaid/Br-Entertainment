@@ -15,34 +15,25 @@
       text-align: center;
     }
   </style>
-
-  <style type="text/css">
-    div.tcentro{
-      text-align: center;
-    }
-  </style>
 <div class="tcentro">
-  <h3><b><i>Seu site brasileiro sobre entretenimento Geek/Otaku</i></b></h3>
+  <h3><b><i>Seu site brasileiro sobre entretenimento Geek/Otaku</h3>
 </div>
   
-  <link rel="Stylesheet" type="text/css" href="estilo.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="Stylesheet">
-
-   
+  
+  
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/shop-homepage-login.css" rel="stylesheet">
+  <link href="css/shop-homepage.css" rel="stylesheet">
 
 </head>
 
 <body>
 
+
   <!-- Navigation -->
-  
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">Br Entertainment</a>
@@ -51,8 +42,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -62,10 +53,9 @@
           <li class="nav-item">
             <a class="nav-link" href="Registro.html">Cadastro</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="Login.html">Login</a>
           </li>
-          
           <li class="nav-item">
             <a class="nav-link" href="#">Contatos</a>
           </li>
@@ -75,7 +65,9 @@
   </nav>
 
 
-  <div class="login" >
+
+
+<div class="login" >
     <center>
    <img src="login.png" class="usuario" width="12%" height="12%" alt="">
    </center>
@@ -95,34 +87,7 @@
   </div>
 </center>
 
- <div class="container">
- <div class="mb-3">
-          <div align="left" >
-          <label for="email"><b>E-mail:<span class="text-muted"></span></label>
-          </div>
-          <input type="email" class="form-control" id="email" placeholder="seuemail@gmail.com">
-          <div class="invalid-feedback">
-            Please enter a valid email address for shipping updates.
-          </div>
-        </div>
 
-        <div class="mb-3">
-           <div align="left" >
-          <label for="address">Senha:</label>
-        </div>
-          <input type="password" class="form-control" id="address" placeholder="*****" required>
-          <div class="invalid-feedback">
-            Please enter your shipping address.
-          </div>
-        </div>
-      </div>
-      <div class="container">
-      <hr class="mb-4">
-        <button class="btn btn-primary btn-lg btn-block" type="submit">Logar</button>
-        </div>
-    <a href="#">Esqueceu sua senha?</a>
-    <br>
-    <a href="Registro.html">Ainda não possui uma conta?</a>
 
 
    </form>
@@ -136,15 +101,14 @@
 </div>
 </div>
 
-<div>
-   <!-- Footer -->
+
+    <!-- Footer -->
   <footer class="py-5 bg-dark">
-    <p class="m-0 text-center text-white">Info02 &copy; GrauTec 2020</p>
-    
+    <div class="container">
+      <p class="m-0 text-center text-white">Info02 &copy; GrauTec 2020</p>
+    </div>
     <!-- /.container -->
   </footer>
-</div>
-
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
