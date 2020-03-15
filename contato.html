@@ -10,11 +10,16 @@
 
   <title>BR-E Contato</title>
 
-  <style type="text/css">
-    div.tcentro{
-      text-align: center;
-    }
   </style>
+
+
+        <style type="text/css">
+
+        textarea{width:320px; margin-top:5px; border-radius:20px; padding: 100px 260px}
+
+
+        </style>
+
 
   
   
@@ -89,26 +94,27 @@
           <div align="left" >
           <label for="email"><b>Informe seu e-mail:<span class="text-muted"></span></label>
           </div>
+          <div class="container">
           <input type="email" class="form-control" id="email" placeholder="seuemail@gmail.com" required>
+        </div>
           <div class="invalid-feedback">
             Please enter a valid email address for shipping updates.
           </div>
         </div>
 
         <div class="mb-3">
-           <div align="left" >
-          <label for="address">Digite algo...</label>
-        </div>
-          <input type="password" class="form-control" id="address" placeholder="..." required>
-          <div class="invalid-feedback">
-            Please enter your shipping address.
-          </div>
-        </div>
+  <fieldset>
+    <div class="container" align="left">
+
+    <textarea  name="mensagem" rows="5" cols="50" placeholder="Digite algo..."></textarea>
       </div>
+    </fieldset>
+  </div>
       <div class="container">
       <hr class="mb-4">
-        <button class="btn btn-primary btn-lg btn-block" type="submit">Logar</button>
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Enviar</button>
         </div>
+      </fieldset>
 
 
    </form>
